@@ -7,7 +7,8 @@ The New Relic automap feature displays entity-centric maps to help you troublesh
 
 To use automap, you need a New Relic account. If you don't already have one, you can sign up [here](https://newrelic.com/signup) for a free account.
 
-![Screenshot showing the automap UI](./images/automaps-overview.png "Screenshot showing the automap UI")
+![Screenshot showing the Automap UI](https://user-images.githubusercontent.com/6021906/140861523-aee8e582-1f14-48ec-8ee1-cdef3f62932c.png "Screenshot showing the automap UI")
+
 
 <figcaption>
 Here's an example of where you could start troubleshooting with automap.
@@ -39,11 +40,9 @@ The **Map view** button is only available for the following types of entities:
 <table>
   <thead>
     <tr>
-      <th style={{ width: "200px" }}>Entity type
-        
-      </th>
-      <th>Description</th>
-      <th>Icon</th>
+      <th style={{ width: "200px" }}>Entity type</th>
+      <th style={{ width: "200px" }}>Description</th>
+      <th style={{ width: "200px" }}>Icon</th>
     </tr>
   </thead>
     <tbody>
@@ -118,7 +117,7 @@ The **Map view** button is only available for the following types of entities:
 
 Unlike simple navigation maps, such as New Relic [maps in context](https://docs.newrelic.com/docs/new-relic-one/use-new-relic-one/ui-data/maps-in-context/), automap helps you understand how problems developed by allowing you to scroll backwards and forwards in time. You can also screen out entities you're not interested in.
 
-### Timewarp cursor: go back in time [#timewarp-cursor]
+### Timewarp: go back in time [#timewarp]
 
 To identify exactly when and where an incident originated, simply move the **Timewarp** cursor to see health status changes for the entities on the map. If you don't see the **Timewarp** cursor, click the clock icon in the upper-right of the automap. When you scroll through the history, you see when anomalous behavior was detected by New Relic Lookout.
 
@@ -129,11 +128,12 @@ Here’s an example of scrolling that reveals that the issue occurred between `F
   id="xqj83ghoog"
 />
 
-### Controls: See only what you need to see [#filter-automap]
+### Legend: Understand and control the information on the map [#legend]
 
-With the **controls** menu available below the **Timewarp** cursor, you can de-emphasize certain entities on the map by unchecking those options. For example, you can hide the healthy service to focus only on those alerting as you browse the timeline:
+The map **Legend** displays the meaning of the icons and line styles that represent various entities and relationships on the map.  Additionally, the legend displays the meaning of health status colors and indication of when anomalies are detected, along with associated controls to de-emphasize certain entities on the map by unchecking those options. For example, you can hide the healthy service to focus only on those alerting as you browse the timeline:
 
-![Screenshot showing where to uncheck options](./images/layer-control-check-boxes.png "Screenshot showing where to uncheck options")
+![Screenshot showing where to uncheck options](https://user-images.githubusercontent.com/6021906/140861301-ab66afcb-26df-4920-8f48-d8b95a049ffa.png "Screenshot showing where to uncheck options")
+
 
 Here is an example of how the controls work:
 
